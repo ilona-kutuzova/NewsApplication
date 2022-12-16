@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">NewsApplication</string>
+
+    <string name="enter_name">Enter your name</string>
+    <string name="next">BBC NEWS</string>
+    <string name="welcome">Welcome!</string>
+
+    <string name="title">Title: </string>
+    <string name="description">Description: </string>
+    <string name="pubDate">Date: </string>
+    <string name="link">Link: </string>
+    <string name="fill_me">fill_me</string>
+    <string name="add_to_favourites">ADD TO FAVOURITES</string>
+    <string name="home">Home</string>
+    <string name="news">News</string>
+    <string name="saved">Saved News</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="exit">Exit</string>
+    <string name="version">Version 7.3.0</string>
+</resources>

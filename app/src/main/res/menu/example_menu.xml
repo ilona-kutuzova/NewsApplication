@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/icon1"
+        android:orderInCategory="300"
+        android:title="icon1"
+        android:icon="@drawable/home"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/icon2"
+        android:orderInCategory="300"
+        android:title="icon2"
+        android:icon="@drawable/news"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/icon3"
+        android:orderInCategory="300"
+        android:title="icon3"
+        android:icon="@drawable/heart"
+        app:showAsAction="always"></item>
+
+    <item
+        android:id="@+id/icon4"
+        android:orderInCategory="300"
+        android:title="icon4"
+        android:icon="@drawable/help"
+        app:showAsAction="always"></item>
+
+</menu>

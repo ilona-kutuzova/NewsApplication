@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NewsApplication</string>
+
+    <string name="enter_name">Entrez votre nom</string>
+    <string name="next">NOUVELLES DE LA BBC</string>
+    <string name="welcome">Bienvenu!</string>
+
+    <string name="title">Titre: </string>
+    <string name="description">Description: </string>
+    <string name="pubDate">Date: </string>
+    <string name="link">Lien: </string>
+    <string name="fill_me">fill_me</string>
+    <string name="add_to_favourites">AJOUTER AUX FAVORIS</string>
+    <string name="home">Domicile</string>
+    <string name="news">Des nouvelles</string>
+    <string name="saved">Nouvelles enregistrées</string>
+    <string name="close">Proche</string>
+    <string name="open">Ouvrir</string>
+    <string name="exit">Sortir</string>
+    <string name="version">Version 7.3.0</string>
+</resources>
