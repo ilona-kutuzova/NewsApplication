@@ -35,6 +35,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
+/*
+SavedNewsActivity shows NewsItems objects titles in ViewList. NewsItems objects are retrieved from
+SQLite database table where they are saved when the user chooses to save them in NewsActivity.
+Also, the user can go to News or Home pages by choosing the appropriate options in the toolbar
+or navigation drawer.
+ */
+
 public class SavedNewsActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     NewsItem newsItem;

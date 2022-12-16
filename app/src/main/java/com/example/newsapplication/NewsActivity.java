@@ -35,6 +35,13 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+NewsActivity shows the NewsItems objects titles in a ListView. NewsItems objects are created
+by parsing XML and setting parameters accordingly.
+Also, the user can go to Home or SavedNews by choosing the appropriate options in the toolbar or
+navigation drawer.
+ */
+
 public class NewsActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     TextView greeting;
@@ -315,14 +322,6 @@ public class NewsActivity extends AppCompatActivity implements NavigationView.On
         protected void onPostExecute(Integer result) {
             adapter.notifyDataSetChanged();
         }
-//        @Override
-//        protected void onProgressUpdate(Integer... values) {
-//            ((ProgressBar)findViewById(R.id.progress_bar)).setProgress(values[0]);
 
-//            if (values[0] == 0) {
-//                ((ImageView)findViewById(R.id.image_view)).setImageBitmap(image);
-//            }
-
-//        }
     }
 }

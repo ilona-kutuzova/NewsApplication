@@ -1,10 +1,6 @@
 package com.example.newsapplication;
 
-import static com.example.newsapplication.MyOpener.TABLE_NAME;
-
-import android.content.ContentValues;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.net.Uri;
@@ -13,13 +9,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.Button;
 import android.widget.TextView;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-
 import java.util.ArrayList;
+
+/*
+DetailsFragment shows the details of the selected NewsItem object (can be selected from NewsActivity
+or SavedNewsActivity.
+ */
 
 public class DetailsFragment extends Fragment {
 
@@ -81,30 +79,6 @@ public class DetailsFragment extends Fragment {
                 startActivity(intent);
             }
         });
-
-//        fill_link.setOnClickListener(new DialogInterface.OnClickListener() {
-//            @Override
-//            public void onClick(DialogInterface dialogInterface, int i) {
-//                String url = dataFromActivity.getString(NewsActivity.ITEM_LINK);
-//
-//                Uri uri = Uri.parse(url);
-//                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-//                startActivity(intent);
-//            }
-//
-////            @Override
-////            public void onClick(View v) {
-////                String url = dataFromActivity.getString(NewsActivity.ITEM_LINK);
-////
-////                Uri uri = Uri.parse(url);
-////                Intent intent = new Intent(Intent.ACTION_VIEW, url);
-////                startActivity(intent);
-////            }
-//        });
-
-//                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(getString(NewsActivity.ITEM_LINK));
-//                startActivity(browserIntent);
-
 
         return result;
     }
